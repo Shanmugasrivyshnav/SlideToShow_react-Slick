@@ -7,11 +7,9 @@ import "./planetSlide.css";
 
 const PlanetsSlider = (props) => {
   const set = {
-    dot: true,
+    dot: False,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <button className="slick-next">Next</button>,
-    prevArrow: <button className="slick-prev">Prev</button>,
   };
   const { planetsList } = props;
   return (
